@@ -3654,10 +3654,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .hhh_accordion .panel-default + .panel-default {
   margin-top: 10px;
   margin-bottom: 0;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%)
 }
 .hhh_accordion .panel-heading {
   padding: 0;
