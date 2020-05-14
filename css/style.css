@@ -3604,10 +3604,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-bottom: 25px;
   margin-top: 0;
   text-transform: uppercase;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%)
 }
 .hhh-tab-content .tab-pane p {
   font-size: 16px;
@@ -3678,10 +3674,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   display: table-cell;
   width: 100000px;
   padding: 15px 20px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%)
+  margin: 0 auto;
 }
 .hhh_accordion .panel-title a:after {
   display: table-cell;
