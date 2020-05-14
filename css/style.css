@@ -14,7 +14,7 @@
 	06. Help Process
 	07. Upcoming Recent Events
 	08. Recent Products
-	09. Quotes 
+	09. Quotes
 	10. Be Volunteer
 	11. Latest News
 	12. Sponsor Banner
@@ -3604,6 +3604,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-bottom: 25px;
   margin-top: 0;
   text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
 }
 .hhh-tab-content .tab-pane p {
   font-size: 16px;
@@ -3674,6 +3678,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   display: table-cell;
   width: 100000px;
   padding: 15px 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
 }
 .hhh_accordion .panel-title a:after {
   display: table-cell;
